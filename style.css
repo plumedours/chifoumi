@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "dogica";
+    src: url("dogica.woff2") format("woff2"),
+         url("./dogica.woff") format("woff");
+}
+
+* {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+   
+body {
+    background-image: url(./img/bg2.png);
+    font-family: "dogica";
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-content: stretch;
+    flex-basis: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.img.choice {
+    width: 100px;
+    cursor: pointer;
+}
+
+.img.choice:hover {
+    width: 120px;
+    transition: all 0.2s;
+}
+
+.img.played {
+    width: 150px;
+}
+
+img.miniature {
+    width: 30px;
+    height: 30px;
+}
+
+.container.header {
+    flex-basis: 50%;
+    margin-bottom: -20px;
+}
+
+.container.playerInfo {
+    flex-basis: 50%;
+    margin-bottom: -30px;
+}
+
+.container.playedImage {
+    margin-bottom: -40px;
+}
+
+.container.btnImage {
+    margin-bottom: -40px;
+}
+
+.container.footer {
+    flex-basis: 20%;
+}
+
+p.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p.score {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p.description {
+    font-size: 0.7rem;
+    line-height: 20px;
+    letter-spacing: -2px;
+}
+
+button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid black;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'dogica',sans-serif;
+    font-weight:300;
+    color: black;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+    button:hover {
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+
+#iconOnOff{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#iconOnOff:hover {
+    cursor: pointer;
+}
+
+    @media all and (max-width:30em){
+    button{
+    display:block;
+    margin:0.4em auto;
+    }
+    
+} 
