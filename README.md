@@ -14,3 +14,7 @@ Un bouton "New Game" pour remettre à 0 les scores.
 L'image de fond est créée par PixelFrog, prise dans l'un de ses packs gratuits.
 Les images Papier, Pierre et Ciseaux, je les ai créées moi même en prenant exemple sur des images similaires.
 Les sons sont pris sur freesound.
+
+## 🌐 Accéder au jeu
+
+[👉 Jouer en ligne](https://plumedours.github.io/chifoumi/)
